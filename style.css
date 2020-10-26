@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2F2F5;
+}
+
+.card{
+    padding: 16px;
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card__description{
+    margin: 0px 0px;
+    font-family: Inter;
+   
+}
+.card__version{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color:#000000;
+    margin: 0px 0px;
+}
+
+.card__version-statuss{
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+color: #000000;
+margin: 0px 0px;
+}
+
+.card_list{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #555770;
+margin-bottom: 8px;
+display: inline-block;
+flex-direction:column;
+justify-content: left;
+margin-bottom: 32px;
+}
+
+.card__button{
+    background: #3366FF;
+border-radius: 4px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+margin: 10px 0px;
+color: #FFFFFF;
+border: none;
+}
+/* otrā kartiņa*/
+.card.card__second{
+    background: #3366FF;
+}
+.card__version.card__version-second{
+    color: white;
+    font-size: 24px;
+}
+.card__version-statuss.card__version-statuss-price{
+    color: white;
+    font-size: 56px;
+    margin-bottom: 32px;
+}
+.card_list-second{
+font-weight: normal;
+font-size: 16px;
+margin: 0px 8px;
+color: #F2F2F5;
+position:relative ;
+margin-bottom: 32px;
+}
+
+/* trešā kartiņa*/
+
+.card.card__third{
+    padding: 40px;
+}
+.card__button-second{
+    background-color: white;
+    margin: 0px 16px;
+    border-radius: 4px;
+    border:none;
+    margin: 0;
+}
+.card_wrapper-list-subscribe{
+ display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: -10%;
+  position: relative;
+  
+}
+
+.card_list-third{
+    min-width: 140px;
+    color: #555770
+}
+
+.card__status-button-wrapper{
+    position: absolute;
+text-align:right;
+ min-width: 200px;
+margin: 0;
+}
+
+.card__statuss-third{
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+color: #000000;
+margin: 0;
+margin-bottom: 8px;
+}
+.card__button-third{
+     background: #3366FF;
+    border-radius: 4px;
+    border:none;
+    margin: 0;
+    padding: 8px 0px 0px 24px;
+    position: relative;
+     }
+
+/* ceturtā kartiņa*/ 
+
+.card.card__forth{
+background-color:#3366FF ;
+padding: 40px;
+}
+
+.card_list-forth{
+    min-width: 140px;
+    color: white;
+}
+
+.card__statuss-forth{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    margin: 0;
+margin-bottom: 8px;
+}
+
+.card__subscribe-text-forth{
+    background-color: white;
+    color: #3366FF ;
+}
